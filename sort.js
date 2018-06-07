@@ -18,7 +18,7 @@ students.sort(function(student1, student2) {
   }
   else {
     console.log(student1, student2);
-    return student1.age - student2.age;
+    return student2.age - student1.age;
   }
 });
 
